@@ -1,0 +1,128 @@
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+🧠 Q: If you buy 3 pens at $2 each, how much?
+  0: $6
+  1: $5
+  2: $7
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: $6
+🧠 Current knowledge: [0.2 0.2 0.2 0.2 0.2 0.2 0.2]
+
+📘 Quiz Session 2
+🧠 Q: What is 1/2 + 1/4?
+  0: 3/4
+  1: 1/2
+  2: 2/4
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.2 0.2 0.2 0.3 0.2]
+
+📘 Quiz Session 3
+🧠 Q: What is 2 * (3 + 5)?
+  0: 16
+  1: 14
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.2 0.2 0.3 0.3 0.2]
+
+📘 Quiz Session 4
+🧠 Q: What is 0.5 + 0.25?
+  0: 0.75
+  1: 0.5
+  2: 1.0
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 0.75
+🧠 Current knowledge: [0.2 0.2 0.2 0.2 0.3 0.3 0.2]
+
+📘 Quiz Session 5
+🧠 Q: What is 12 - 7?
+  0: 5
+  1: 4
+  2: 6
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.3 0.2 0.2 0.3 0.3 0.2]
+
+📘 Quiz Session 6
+🧠 Q: What is 48 / 4?
+  0: 12
+  1: 11
+  2: 13
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.3 0.2 0.3 0.3 0.3 0.2]
+
+📘 Quiz Session 7
+🧠 Q: What is 48 / 4?
+  0: 12
+  1: 11
+  2: 13
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.3 0.2 0.4 0.3 0.3 0.2]
+
+📘 Quiz Session 8
+🧠 Q: You have 5 apples. You eat 2. How many left?
+  0: 3
+  1: 4
+  2: 2
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.3 0.2 0.4 0.4 0.3 0.2]
+
+📘 Quiz Session 9
+🧠 Q: What is 103 + 208?
+  0: 311
+  1: 301
+  2: 321
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 311
+🧠 Current knowledge: [0.2 0.3 0.2 0.4 0.4 0.3 0.2]
+
+📘 Quiz Session 10
+🧠 Q: You have 5 apples. You eat 2. How many left?
+  0: 3
+  1: 4
+  2: 2
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.3 0.2 0.4 0.5 0.3 0.2]
+
+📘 Quiz Session 11
+🧠 Q: What is 17 * 3?
+  0: 51
+  1: 50
+  2: 52
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.3 0.3 0.4 0.5 0.3 0.2]
+
+📘 Quiz Session 12
+🧠 Q: What is 123 * 3?
+  0: 369
+  1: 359
+  2: 379
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.3 0.4 0.4 0.5 0.3 0.2]
+
+📘 Quiz Session 13
+🧠 Q: What is 5 + 7?
+  0: 12
+  1: 11
+  2: 13
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.3 0.3 0.4 0.4 0.5 0.3 0.2]
+
+📘 Quiz Session 14
+🧠 Q: What is 0.5 + 0.25?
+  0: 0.75
+  1: 0.5
+  2: 1.0
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.3 0.3 0.4 0.4 0.5 0.3 0.3]
+
+📘 Quiz Session 15
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 274, in <module>
+    action = agent.act(state, prev_action=action if episode > 0 else None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 224, in act
+    return tebd_structured_action_selector(q_values, topics, difficulties, prev_action=prev_action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 130, in tebd_structured_action_selector
+    mps[i].modify(data=state)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quimb/tensor/tensor_core.py", line 1604, in modify
+    raise ValueError(
+ValueError: Mismatch between number of data dimensions and number of indices supplied.

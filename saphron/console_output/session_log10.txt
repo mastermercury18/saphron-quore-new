@@ -1,0 +1,122 @@
+
+📘 Quiz Session 1
+Q: Excluding stoppages, the speed of a train is 45 kmph and including stoppages it is 36 kmph. Of how many minutes does the train stop per hour?
+  0: 16
+  1: 17
+  2: 12
+  3: 18
+  4: 12
+Your answer (0/1/2/...): Incorrect. Correct answer is: 12
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 2
+Q: A train passes a station platform in 36 sec and a man standing on the platform in 20 sec. If the speed of the train is 36 km/hr. What is the length of the platform?
+  0: 160
+  1: 240
+  2: 288
+  3: 277
+  4: 221
+Your answer (0/1/2/...): Incorrect. Correct answer is: 160
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 3
+Q: What is the present age of Kim, given that the ratio between her age and her sisters age 7 years ago was 4:3, and her sister is presently 31 years old.
+  0: 23
+  1: 19
+  2: 22
+  3: 21
+  4: 24
+Your answer (0/1/2/...): Incorrect. Correct answer is: 21
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 4
+Q: If 13 persons meet at a reunion and each person shakes hands exactly once with each of the others, what is the total number of handshakes?
+  0: 10•9•8•7•6•5•4•3•2•1
+  1: 10•10
+  2: 78
+  3: 45
+  4: 36
+Your answer (0/1/2/...): Incorrect. Correct answer is: 78
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 5
+Q: sum of the digits of 5^2010*8^673
+  0: 7
+  1: 8
+  2: 9
+  3: 10
+  4: 11
+Your answer (0/1/2/...): Incorrect. Correct answer is: 8
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 6
+Q: The product of all the prime numbers less than 50 is closest to which of the following powers of 10 ?
+  0: 10^9
+  1: 10^8
+  2: 10^7
+  3: 25*10^6
+  4: 10^5
+Your answer (0/1/2/...): Correct!
+Current knowledge: [0.2 0.3]
+
+📘 Quiz Session 7
+Q: A factory produces x widgets per day. The factory's fixed costs are $7000 per day. The price per widget is $80 and the variable costs are $20 per widget. How many widgets need to be produced for profits of $6200 a day?
+  0: 42.33
+  1: 90.33
+  2: 168
+  3: 220
+  4: 400
+Your answer (0/1/2/...): Incorrect. Correct answer is: 220
+Current knowledge: [0.2 0.3]
+
+📘 Quiz Session 8
+Q: 3 friends A,B,C went for week end party to McDonald's restaurant and there they measure there weights in some order in 7 rounds. A, B, C, AB, BC, AC, ABC. Final round measure is 155 kg, then find the average weight of all the 7 rounds?
+  0: 56
+  1: 66
+  2: 77
+  3: 88
+  4: 99
+Your answer (0/1/2/...): Correct!
+Current knowledge: [0.2 0.4]
+
+📘 Quiz Session 9
+Q: The smallest number which when diminished by 6, is divisible by 12, 16, 18, 21 and 28 is
+  0: 1008
+  1: 1014
+  2: 1022
+  3: 1032
+  4: 1043
+Your answer (0/1/2/...): Incorrect. Correct answer is: 1014
+Current knowledge: [0.2 0.4]
+
+📘 Quiz Session 10
+Q: he average marks of a class of 30 students is 40 and that of another class of 50 students is 60. Find the average marks of all the students?
+  0: 52.2
+  1: 59.5
+  2: 52.8
+  3: 52.5
+  4: 52.1
+Your answer (0/1/2/...): Incorrect. Correct answer is: 52.5
+Current knowledge: [0.2 0.4]
+
+📘 Quiz Session 11
+Q: Anmol can eat 27 pastries in a hour.
+Aakriti can eat 2 pastries in 10 minutes.
+Divya can eat 7 pastries in 20 minutes.
+How long will it take them to eat a 240 pastries ?
+  0: 2 hours.
+  1: 1 hours.
+  2: 5 hours.
+  3: 4 hours.
+  4: 3 hours.
+Your answer (0/1/2/...): Incorrect. Correct answer is: 4 hours.
+Current knowledge: [0.2 0.4]
+
+📘 Quiz Session 12
+Q: Of the three numbers, the first is twice as second and three times the third. The average of the three numbers is 66, and the three numbers in order are?
+  0: 116,58,36
+  1: 98,49,33
+  2: 126,63,36
+  3: 108,54,36
+  4: None of these
+Your answer (0/1/2/...): 

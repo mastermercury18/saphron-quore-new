@@ -1,0 +1,157 @@
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.2 0.2 0.2]
+
+📘 Quiz Session 2
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 3
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.4 0.2 0.2]
+
+📘 Quiz Session 4
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.5 0.2 0.2]
+
+📘 Quiz Session 5
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.6 0.2 0.2]
+
+📘 Quiz Session 6
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.7 0.2 0.2]
+
+📘 Quiz Session 7
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.8 0.2 0.2]
+
+📘 Quiz Session 8
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.9 0.2 0.2]
+
+📘 Quiz Session 9
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [1.  0.2 0.2]
+
+📘 Quiz Session 10
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [1.1 0.2 0.2]
+
+🎓 Done! The agent should now recommend more of what you need.
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 2
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 3
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 4
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 5
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 6
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 7
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 8
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 9
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): 

@@ -1,0 +1,103 @@
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+🧠 Q: What is 3/5 - 1/5?
+  0: 2/5
+  1: 1/5
+  2: 3/5
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.2 0.2 0.2 0.3 0.2]
+
+📘 Quiz Session 2
+🧠 Q: What is 123 * 3?
+  0: 379
+  1: 359
+  2: 369
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.3 0.2 0.2 0.3 0.2]
+
+📘 Quiz Session 3
+🧠 Q: What is 3/5 - 1/5?
+  0: 2/5
+  1: 1/5
+  2: 3/5
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 2/5
+🧠 Current knowledge: [0.2 0.2 0.3 0.2 0.2 0.3 0.2]
+
+📘 Quiz Session 4
+🧠 Q: What is 123 * 3?
+  0: 379
+  1: 359
+  2: 369
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.4 0.2 0.2 0.3 0.2]
+
+📘 Quiz Session 5
+🧠 Q: What is 48 / 4?
+  0: 12
+  1: 13
+  2: 11
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.4 0.3 0.2 0.3 0.2]
+
+📘 Quiz Session 6
+🧠 Q: What is 523 - 109?
+  0: 424
+  1: 414
+  2: 413
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 414
+🧠 Current knowledge: [0.2 0.2 0.4 0.3 0.2 0.3 0.2]
+
+📘 Quiz Session 7
+🧠 Q: What is 48 / 4?
+  0: 12
+  1: 13
+  2: 11
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.4 0.4 0.2 0.3 0.2]
+
+📘 Quiz Session 8
+🧠 Q: What is 0.5 + 0.25?
+  0: 1.0
+  1: 0.75
+  2: 0.5
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.4 0.4 0.2 0.3 0.3]
+
+📘 Quiz Session 9
+🧠 Q: You have 5 apples. You eat 2. How many left?
+  0: 3
+  1: 2
+  2: 4
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.2 0.2 0.4 0.4 0.3 0.3 0.3]
+
+📘 Quiz Session 10
+🧠 Q: What is 9 + 3?
+  0: 12
+  1: 13
+  2: 11
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.3 0.2 0.4 0.4 0.3 0.3 0.3]
+
+📘 Quiz Session 11
+🧠 Q: What is 12 - 7?
+  0: 4
+  1: 6
+  2: 5
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.3 0.3 0.4 0.4 0.3 0.3 0.3]
+
+📘 Quiz Session 12
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 237, in <module>
+    action = agent.act(state, prev_action=action if episode > 0 else None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 187, in act
+    return tebd_structured_action_selector(q_values, topics, difficulties, prev_action=prev_action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 106, in tebd_structured_action_selector
+    mps = qtn.MPS_tensor(initial_states, site_tag_id='I')
+          ^^^^^^^^^^^^^^
+AttributeError: module 'quimb.tensor' has no attribute 'MPS_tensor'. Did you mean: 'COPY_tensor'?

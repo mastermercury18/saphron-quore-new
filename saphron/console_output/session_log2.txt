@@ -1,0 +1,246 @@
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 238, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 189, in act
+    return tebd_structured_action_selector(q_values, topics, difficulties, prev_action=None, bond_dim=4, dt=0.1, steps=3)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'tebd_structured_action_selector' is not defined. Did you mean: 'self.tebd_structured_action_selector'?
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 238, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 189, in act
+    return self.tebd_structured_action_selector(q_values, topics, difficulties, prev_action=None, bond_dim=4, dt=0.1, steps=3)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DQNAgent.tebd_structured_action_selector() got multiple values for argument 'prev_action'
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 238, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 189, in act
+    return self.tebd_structured_action_selector(q_values, topics, difficulties)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 118, in tebd_structured_action_selector
+    n = len(q_values)
+        ^^^^^^^^^^^^^
+TypeError: object of type 'DQNAgent' has no len()
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 238, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 189, in act
+    return self.tebd_structured_action_selector(q_values, topics, difficulties)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 118, in tebd_structured_action_selector
+    n = len(q_values)
+        ^^^^^^^^^^^^^
+TypeError: object of type 'DQNAgent' has no len()
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 239, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 190, in act
+    return self.tebd_structured_action_selector(q_values, topics, difficulties)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 118, in tebd_structured_action_selector
+    q_values = list(q_values)
+               ^^^^^^^^^^^^^^
+TypeError: 'DQNAgent' object is not iterable
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+<__main__.DQNAgent object at 0x3096831d0>
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 240, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 191, in act
+    return self.tebd_structured_action_selector(q_values, topics, difficulties)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 119, in tebd_structured_action_selector
+    q_values = list(q_values)
+               ^^^^^^^^^^^^^^
+TypeError: 'DQNAgent' object is not iterable
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 241, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 188, in act
+    print(q_values)
+          ^^^^^^^^
+UnboundLocalError: cannot access local variable 'q_values' where it is not associated with a value
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 241, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 188, in act
+    print(q_values)
+          ^^^^^^^^
+UnboundLocalError: cannot access local variable 'q_values' where it is not associated with a value
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+[array([-0.00780377, -0.0921882 ,  0.07176567,  0.06091741,  0.0126217 ,
+        0.04105317], dtype=float32)]
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 241, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 192, in act
+    return self.tebd_structured_action_selector(q_values, topics, difficulties)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 119, in tebd_structured_action_selector
+    q_values = list(q_values)
+               ^^^^^^^^^^^^^^
+TypeError: 'DQNAgent' object is not iterable
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 240, in <module>
+    action = agent.act(state)
+             ^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 191, in act
+    return self.tebd_structured_action_selector(q_values, topics, difficulties)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DQNAgent' object has no attribute 'tebd_structured_action_selector'
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+📘 Quiz Session 1
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 2
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ❌ Incorrect. Correct answer is: 9
+🧠 Current knowledge: [0.3 0.2 0.2]
+
+📘 Quiz Session 3
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.4 0.2 0.2]
+
+📘 Quiz Session 4
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.5 0.2 0.2]
+
+📘 Quiz Session 5
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.6 0.2 0.2]
+
+📘 Quiz Session 6
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.7 0.2 0.2]
+
+📘 Quiz Session 7
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.8 0.2 0.2]
+
+📘 Quiz Session 8
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [0.9 0.2 0.2]
+
+📘 Quiz Session 9
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+🧠 Current knowledge: [1.  0.2 0.2]
+
+📘 Quiz Session 10
+🧠 Q: What is 6 + 3?
+  0: 6
+  1: 9
+  2: 12
+Your answer (0/1/2): ✅ Correct!
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 263, in <module>
+    agent.replay()
+  File "/Users/neha/Documents/tj/saphron/tebd_deep_q.py", line 224, in replay
+    self.model.fit(state[np.newaxis, :], target_f, epochs=1, verbose=0)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 369, in fit
+    for step, iterator in epoch_iterator:
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/backend/tensorflow/trainer.py", line 734, in __next__
+    return next(self._epoch_iterator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/trainers/epoch_iterator.py", line 112, in _enumerate_iterator
+    self._current_iterator = iter(self._get_iterator())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 501, in __iter__
+    return iterator_ops.OwnedIterator(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tensorflow/python/data/ops/iterator_ops.py", line 709, in __init__
+    self._create_iterator(dataset)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tensorflow/python/data/ops/iterator_ops.py", line 748, in _create_iterator
+    gen_dataset_ops.make_iterator(ds_variant, self._iterator_resource)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/tensorflow/python/ops/gen_dataset_ops.py", line 3478, in make_iterator
+    _result = pywrap_tfe.TFE_Py_FastPathExecute(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

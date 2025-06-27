@@ -1,0 +1,24 @@
+{
+  "name": "adaptive-learning-system",
+  "version": "1.0.0",
+  "description": "Quantum-inspired adaptive learning system with React frontend",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd rl_agent_engine && python api_server.py",
+    "install-deps": "npm install && cd frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "react",
+    "flask",
+    "machine-learning",
+    "adaptive-learning",
+    "quantum"
+  ],
+  "author": "",
+  "license": "MIT"
+} 

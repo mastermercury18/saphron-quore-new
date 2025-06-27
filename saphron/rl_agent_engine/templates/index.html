@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Adaptive Tutor</title></head>
+<body>
+    <h2>📘 Question</h2>
+    <p>{{ question }}</p>
+    <form method="POST" action="{{ url_for('submit') }}">
+        {% for i in range(options|length) %}
+            <input type="radio" name="answer" value="{{ i }}" required> {{ options[i] }}<br>
+        {% endfor %}
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

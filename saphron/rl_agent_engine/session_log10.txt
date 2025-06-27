@@ -1,0 +1,119 @@
+
+📘 Quiz Session 1
+Q: An escalator moves towards the top level at the rate of 12 ft.sec and its length is 150 feet. If a person walks on the moving escalator at the rate of 3 feet per second towards the top level, how much time does he take to cover the entire length.
+  0: 10sec
+  1: 20sec
+  2: 15sec
+  3: 16sec
+  4: 14sec
+Your answer (0/1/2/...): Incorrect. Correct answer is: 10sec
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 2
+Q: At an examination in which full marks were 500. A got 10% less than B, B got 25% more than C and C got 20% less than D. If A got 360marks, what percentage of full marks was obtained by D?
+  0: 90%
+  1: 88%
+  2: 80%
+  3: 90%
+  4: 84%
+Your answer (0/1/2/...): Incorrect. Correct answer is: 80%
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 3
+Q: How many different arrangements of A, B, C, D, E AND F are possible where A is not adjacent to B and D is not adjacent to E?
+  0: 96
+  1: 48
+  2: 32
+  3: 144
+  4: 1
+Your answer (0/1/2/...): Incorrect. Correct answer is: 144
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 4
+Q: There are three departments having students 68,58,24 .In an exam they have to be seated in rooms such that each room has equal number of students and each room has students of one type only (No mixing of departments). Find the minimum number of rooms required?
+  0: 73
+  1: 74
+  2: 75
+  3: 76
+  4: 77
+Your answer (0/1/2/...): Incorrect. Correct answer is: 75
+Current knowledge: [0.2 0.2]
+
+📘 Quiz Session 5
+Q: Which of the following triples of numbers have the same standard deviation as the numbers u, v and w?
+I. u-2, v-2, w-2
+II. 0, u-v, w-v
+III. u-4, v+5, w-1
+  0: I only
+  1: II only
+  2: I and III only
+  3: II and I only
+  4: I, II, and III
+Your answer (0/1/2/...): Correct!
+Current knowledge: [0.2 0.3]
+
+📘 Quiz Session 6
+Q: If Susan can paint a house in 4 hours, and Jeff can paint the same house in 6 hours, how long will it take for both of them to paint the house together?
+  0: 2.4 hr
+  1: 2.6 hr
+  2: 3.0 hr
+  3: 5.0 hr
+  4: 5.2 hr
+Your answer (0/1/2/...): Incorrect. Correct answer is: 2.4 hr
+Current knowledge: [0.2 0.3]
+
+📘 Quiz Session 7
+Q: In a km race, A beats Bby 28 metres or 7 seconds. Find A's timeoverthe course
+  0: 4 min
+  1: 3 min 3 sec
+  2: 4 min 4 sec
+  3: 5 min 3 sec
+  4: 4 min 3 sec
+Your answer (0/1/2/...): Incorrect. Correct answer is: 4 min 3 sec
+Current knowledge: [0.2 0.3]
+
+📘 Quiz Session 8
+Q: An uneducated retailer marks all his goods at 55% above the cost price and thinking that he will still make 25% profit, offers a discount of 25% on the marked price. What is his actual profit on the sales?
+  0: 12.50 %
+  1: 13.50 %
+  2: 14 %
+  3: 14.50 %
+  4: None
+Your answer (0/1/2/...): Incorrect. Correct answer is: None
+Current knowledge: [0.2 0.3]
+
+📘 Quiz Session 9
+Q: If the number of boys in a class are 8 times the number of girls, which value can never be the total number of boys?
+  0: A - 16
+  1: B - 9
+  2: C - 10
+  3: D - 11
+  4: E - 12
+Your answer (0/1/2/...): Incorrect. Correct answer is: A - 16
+Current knowledge: [0.2 0.3]
+
+📘 Quiz Session 10
+Q: A train 330 m long is running with a speed of 60 km/hr. In what time will it pass a man who is running at 6 km/hr in the direction opposite to that in which the train is going?
+  0: 5
+  1: 6
+  2: 7
+  3: 18
+  4: 9
+Your answer (0/1/2/...): Correct!
+Current knowledge: [0.2 0.4]
+
+📘 Quiz Session 11
+Traceback (most recent call last):
+  File "/Users/neha/Documents/tj/saphron/rl_agent_engine/tebd_aquarat.py", line 118, in <module>
+    action = agent.act(state, prev_action=action if episode > 0 else None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/rl_agent_engine/tebd_aquarat.py", line 95, in act
+    return tebd_structured_action_selector(q_values, topics, difficulties, prev_action=prev_action)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/neha/Documents/tj/saphron/rl_agent_engine/tebd_aquarat.py", line 54, in tebd_structured_action_selector
+    mps = qtn.COPY_tensor(initial_states, inds='I')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quimb/tensor/tensor_core.py", line 3143, in COPY_tensor
+    return Tensor(_make_copy_ndarray(d, ndim, dtype), inds, tags)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
