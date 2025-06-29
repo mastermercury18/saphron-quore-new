@@ -1,5 +1,8 @@
 # 🧠 Quantum-Inspired Adaptive Math Tutoring Platform
 
+hi
+
+
 An interactive web-based adaptive math tutor that combines **Deep Q-Learning (DQN)** with a **quantum-inspired TEBD (Time-Evolving Block Decimation)** algorithm to recommend the most effective math questions to users based on their evolving topic mastery.
 
 This system intelligently adjusts both the difficulty and topic of questions in real-time by modeling structured correlations between topics — inspired by entanglement in quantum systems. It emulates the decision-making process of a highly attentive tutor, delivering content tailored to reinforce weak areas, avoid redundancy, and promote efficient concept acquisition.
